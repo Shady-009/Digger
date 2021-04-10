@@ -102,10 +102,7 @@ namespace Digger
             {
                 return true;
             }
-            //if (conflictedObject is Monster);
-            //{
-            //    return true;            
-            //}
+            
             return false;
         }
         public CreatureCommand Act(int x, int y)
@@ -145,10 +142,6 @@ namespace Digger
                 fallingSack.DeltaX = fallingSack.DeltaY = 0;
             }
             return fallingSack;
-        }
-        public void IsFallsDown()
-        {
-
         }
     }
    
